@@ -1,0 +1,53 @@
+# ============================================================
+# Car Rental System - .gitignore
+# ============================================================
+
+# --- Build outputs ---
+# Maven (backend)
+backend/target/
+*.class
+
+# Vite / frontend
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# --- Dependencies ---
+**/node_modules/
+
+# --- Environment & secrets ---
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+*.env.*
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- OS ---
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# --- Coverage / test artifacts ---
+coverage/
+.nyc_output/
+.pytest_cache/
+.coverage
+.cache
+
+# --- Misc ---
+*.tgz
+*.tar.gz
+*.zip
